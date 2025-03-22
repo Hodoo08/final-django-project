@@ -1,0 +1,41 @@
+/* Ensure the entire page takes up the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content should take up all available space */
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #17232e;
+    padding: 25px;
+    text-align: center;
+}
+
+table {
+    border-collapse: separate; /* Ensures border-radius works */
+    border-spacing: 0; /* Optional: Removes spacing between table cells */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 10px; /* Curved border */
+    overflow: hidden; /* Ensures content stays inside the border */
+}
+
+/* Optional: Add padding and styling to table cells */
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #070606; /* Add a subtle row separator */
+}
+
+table th {
+    background-color: #080808; /* Header background color */
+}
+
+table tr:last-child td {
+    border-bottom: none; /* Remove border for the last row */
+}
