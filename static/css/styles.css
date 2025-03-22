@@ -20,7 +20,7 @@ footer {
 table {
     border-collapse: separate; /* Ensures border-radius works */
     border-spacing: 0; /* Optional: Removes spacing between table cells */
-    border: 1px solid #ccc; /* Border color */
+    border: 1px solid #070707; /* Border color */
     border-radius: 10px; /* Curved border */
     overflow: hidden; /* Ensures content stays inside the border */
 }
@@ -38,4 +38,13 @@ table th {
 
 table tr:last-child td {
     border-bottom: none; /* Remove border for the last row */
+}
+
+.btn-danger {
+    background-color: #931414; /* Custom red color */
+    border-color: #cc0000;    /* Custom border color */
+    }
+    
+.btn-danger:hover {
+        background-color: #ff0000; /* Hover state color */
 }
