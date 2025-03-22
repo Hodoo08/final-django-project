@@ -1,22 +1,29 @@
 from django.shortcuts import render, redirect
-from django .views.generic import TemplateView, View
+from django.urls import reverse_lazy
+from django .views.generic import TemplateView, View, CreateView, UpdateView
 from django.contrib.auth import authenticate, login
-from .forms import UserRegistorForm
+from django.contrib.auth.mixins import LoginRequiredMixin
+from .forms import UserRegistorForm, InventoryItemForm
+from .models import InventoryItem, Category
 # Create your views here.
-
 
 class Index(TemplateView):
     template_name = 'inventory/index.html'
     
 
-class Dashboard(View):
+class Dashboard(LoginRequiredMixin, View):
+    login_url = 'account_login'
+    redirect_field_name = 'next'
+    
     def get(self, request):
-        return render(request, 'inventory/dashboard.html')    
+        items = InventoryItem.objects.all().order_by('id')
+        return render(request, 'inventory/dashboard.html', {'items': items})    
+
 
 class SignUpView(View):
     def get(self, request):
         form = UserRegistorForm()
-        return render(request, 'inventory/signup.html', {'form': form})
+        return render(request, 'account/signup.html', {'form': form})
             
             
     def post(self, request):
@@ -27,6 +34,32 @@ class SignUpView(View):
                 username=form.cleaned_data['username'],
                 password=form.cleaned_data['password1']
             )
-            login(request, user)     
+
+            login(request, user)
             return redirect('index')
-        return render(request, 'inventory/signup.html', {'form': form})   
+
+        return render(request, 'account/signup.html', {'form': form})
+    
+class AddItem(LoginRequiredMixin, CreateView):
+    model = InventoryItem    
+    form_class = InventoryItemForm
+    template_name = 'inventory/item_form.html'
+    success_url = reverse_lazy('dashboard')
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['catagories'] = Category.objects.all()
+        return context
+    
+    def form_valid(self, form):
+        form.instance.user = self.request.user
+        return super().form_valid(form)
+
+
+class EditItem(LoginRequiredMixin, UpdateView):
+    model = InventoryItem
+    form_class = InventoryItemForm
+    template_name = 'inventory/item_form.html'
+    success_url = reverse_lazy('dashboard')
+    
+        
