@@ -11,8 +11,8 @@ Link to User Stories in GitHub Projects:
 
 # Wireframes:
 
-[wireframes](static/images/New%20Wireframe%201.png)
-[wireframes](static/images/New%20Wireframe%202.png)
+![wireframes](static/images/New%20Wireframe%201.png)
+![wireframes](static/images/New%20Wireframe%202.png)
 
 # Design Rationale:
 
