@@ -7,11 +7,11 @@ The Inventory Management System is a web application developed using Django, Pyt
 # UX Design Process
 
 Link to User Stories in GitHub Projects:
-GitHub Projects Kanban Board
+[https://github.com/users/Hodoo08/projects/4]
 
 # Wireframes:
 
-[Attach or link to accessible wireframes used in the design process, ensuring high colour contrast and alt text for visual elements.]
+[Attach or link to accessible wireframes used in the design process, ensuring high co]
 
 # Design Rationale:
 
