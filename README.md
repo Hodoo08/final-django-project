@@ -7,15 +7,19 @@ The Inventory Management System is a web application developed using Django, Pyt
 # UX Design Process
 
 Link to User Stories in GitHub Projects:
-GitHub Projects Kanban Board
+[https://github.com/users/Hodoo08/projects/4]
 
 # Wireframes:
 
-[Attach or link to accessible wireframes used in the design process, ensuring high colour contrast and alt text for visual elements.]
+[Attach or link to accessible wireframes used in the design process, ensuring high co]
 
 # Design Rationale:
 
 The layout and design choices were made with a focus on usability and accessibility. Key design decisions included a clean and simple interface, high contrast colors for readability, and a responsive design to ensure accessibility on various devices. Accessibility guidelines (e.g., WCAG) were integrated.
+<<<<<<< HEAD
+=======
+I opted for a sandstone theme from bootswatch which is a simple theme with a touch of warmth that attracts users.
+>>>>>>> refs/remotes/origin/main
 
 # Reasoning For Any Final Changes:
 
@@ -39,7 +43,7 @@ Users are able to delete inventory items via their disgression. Gives users the 
 # Deployment
 Platform: Heroku
 
-# High-Level Deployment Steps:
+High-Level Deployment Steps:
 
 Step 1: Set up a Heroku account and create a new app.
 Step 2: Configure the Django application for Heroku deployment, including setting up the Procfile and necessary environment variables.
@@ -54,7 +58,6 @@ Environment variables are used for sensitive data.
 DEBUG mode is disabled in production.
 AI Implementation and Orchestration
 
-Use Cases and Reflections:
 
 # Code Creation: 
 AI was used for rapid prototyping, with minor adjustments for alignment with project goals. Examples include using reverse prompts for alternative code solutions and question-answer prompts for resolving specific challenges.
@@ -64,7 +67,10 @@ AI tools were instrumental in resolving logic errors and enhancing maintainabili
 
 # Performance and UX Optimization: 
 AI-driven improvements were applied to enhance application speed and user experience for all users.
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/main
 Automated Unit Testing: 
 Adjustments were made to improve test coverage and ensure alignment with functionality. Prompts were used to generate inclusive test cases that considered edge cases for accessibility.
 
@@ -83,7 +89,10 @@ The application was tested on various devices and browsers, ensuring testing was
 Features Tested: 
 CRUD operations, navigation, and accessibility features were tested manually.
 Results: All critical features worked as expected, including accessibility checks.
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/main
 
 # Tools Used:
 
@@ -98,4 +107,8 @@ Manual corrections were made to AI-generated test cases, particularly for access
 
 Consider adding voice input capabilities for improved accessibility.
 Implement additional language support to cater to a broader audience.
+<<<<<<< HEAD
 Add reporting features to provide more detailed insights into inventory trends.
+=======
+Add reporting features to provide more detailed insights into inventory trends.
+>>>>>>> refs/remotes/origin/main
