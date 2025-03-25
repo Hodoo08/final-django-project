@@ -11,15 +11,12 @@ Link to User Stories in GitHub Projects:
 
 # Wireframes:
 
-[Attach or link to accessible wireframes used in the design process, ensuring high co]
+[Attach or link to accessible wireframes used in the design process, ensuring high colour contrast and alt text for visual elements.]
 
 # Design Rationale:
 
 The layout and design choices were made with a focus on usability and accessibility. Key design decisions included a clean and simple interface, high contrast colors for readability, and a responsive design to ensure accessibility on various devices. Accessibility guidelines (e.g., WCAG) were integrated.
-<<<<<<< HEAD
-=======
 I opted for a sandstone theme from bootswatch which is a simple theme with a touch of warmth that attracts users.
->>>>>>> refs/remotes/origin/main
 
 # Reasoning For Any Final Changes:
 
@@ -67,10 +64,6 @@ AI tools were instrumental in resolving logic errors and enhancing maintainabili
 
 # Performance and UX Optimization: 
 AI-driven improvements were applied to enhance application speed and user experience for all users.
-<<<<<<< HEAD
-
-=======
->>>>>>> refs/remotes/origin/main
 Automated Unit Testing: 
 Adjustments were made to improve test coverage and ensure alignment with functionality. Prompts were used to generate inclusive test cases that considered edge cases for accessibility.
 
@@ -89,10 +82,7 @@ The application was tested on various devices and browsers, ensuring testing was
 Features Tested: 
 CRUD operations, navigation, and accessibility features were tested manually.
 Results: All critical features worked as expected, including accessibility checks.
-<<<<<<< HEAD
 
-=======
->>>>>>> refs/remotes/origin/main
 
 # Tools Used:
 
@@ -107,8 +97,5 @@ Manual corrections were made to AI-generated test cases, particularly for access
 
 Consider adding voice input capabilities for improved accessibility.
 Implement additional language support to cater to a broader audience.
-<<<<<<< HEAD
+
 Add reporting features to provide more detailed insights into inventory trends.
-=======
-Add reporting features to provide more detailed insights into inventory trends.
->>>>>>> refs/remotes/origin/main
