@@ -29,13 +29,17 @@ Users can view a paginated list of inventory items, making it easy to navigate t
 Feature 2: Add Inventory Item
 Inventory managers can add new items to the inventory, ensuring the system stays updated.
 
-Inclusivity Notes:
-The features were designed to address the needs of diverse users, including those with Special Educational Needs and Disabilities (SEND). The interface supports screen readers, and high contrast themes are available for users with visual impairments.
+Feature 3: Edit Inventory Item
+Inventory managers are able to edit already listed items, by changing and keeping up to date with the quantity of listed inventory items.
+
+Feature 4: Delete Inventory Item
+Users are able to delete inventory items via their disgression. Gives users the flexibilty to delete out of stock inventory. This adheres to one of CRUD functionality features.
+
 
 # Deployment
 Platform: Heroku
 
-# High-Level Deployment Steps:
+High-Level Deployment Steps:
 
 Step 1: Set up a Heroku account and create a new app.
 Step 2: Configure the Django application for Heroku deployment, including setting up the Procfile and necessary environment variables.
