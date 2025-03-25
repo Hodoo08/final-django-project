@@ -15,7 +15,8 @@ Link to User Stories in GitHub Projects:
 
 # Design Rationale:
 
-The layout and design choices were made with a focus on usability and accessibility. Key design decisions included a clean and simple interface, high contrast colors for readability, and a responsive design to ensure accessibility on various devices. Accessibility guidelines (e.g., WCAG) were integrated, and considerations were made for users with disabilities, such as screen reader support.
+The layout and design choices were made with a focus on usability and accessibility. Key design decisions included a clean and simple interface, high contrast colors for readability, and a responsive design to ensure accessibility on various devices. Accessibility guidelines (e.g., WCAG) were integrated.
+I opted for a sandstone theme from bootswatch which is a simple theme with a touch of warmth that attracts users.
 
 # Reasoning For Any Final Changes:
 
