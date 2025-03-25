@@ -37,6 +37,9 @@ Inventory managers are able to edit already listed items, by changing and keepin
 Feature 4: Delete Inventory Item
 Users are able to delete inventory items via their disgression. Gives users the flexibilty to delete out of stock inventory. This adheres to one of CRUD functionality features.
 
+Feature 5: Low Stock Alert
+Whenever an inventory item is below 3, i have added a feature where an alert message will pop up and notify the user that their inventory stock is running low. I have also made it so that when the item is low and is visiable on the dashboard that the quantity number is displayed in red.
+
 
 # Deployment
 Platform: Heroku
@@ -74,7 +77,14 @@ AI tools streamlined repetitive tasks, enabling focus on high-level development.
 # Testing Summary
 
 # Manual Testing:
+I used Devtool Lighthouse to conduct testing, outcome below:
+![Lighthouse Test](static/images/LightHouse%20Testing.png)
 
+I tested My HTML via the HTML validator, Find report below:
+![HTML Validation](static/images/HTML%20validator.png)
+
+I also tested my CSS via the CSS Validator, find report below:
+![CSS Validation](static/images/CSS%20validator.png)
 
 # Devices and Browsers Tested: 
 
