@@ -1,13 +1,21 @@
 # Inventory Management System
 
+Deployment Link
+[https://inventory-management-my-app-2ca5c492a94f.herokuapp.com/]
+
 # Overview
 
 The Inventory Management System is a web application developed using Django, Python, and deployed on Heroku. The purpose of this project is to provide an efficient solution for managing inventory, tracking stock levels, and ensuring that items are readily available when needed. It solves the problem of manual inventory tracking and helps businesses streamline their operations, saving time and reducing errors.
 
 # UX Design Process
 
+# Agile
+
 Link to User Stories in GitHub Projects:
 [https://github.com/users/Hodoo08/projects/4]
+
+In designing my inventory management system, I applied Agile development principles even as a solo developer to stay organised and adaptive throughout the project. I structured my work into iterative cycles, focusing on smaller, manageable tasks that allowed for continuous progress. By frequently reflecting on completed features and identifying areas for improvement, I was able to refine the system incrementally. Regular self-reviews helped me stay aligned with the project's goals and adjust to challenges as they arose. This Agile approach ensured that I delivered a robust and user-focused solution efficiently, even while working independently.
+
 
 # Wireframes:
 
@@ -71,7 +79,7 @@ AI-driven improvements were applied to enhance application speed and user experi
 Automated Unit Testing: 
 Adjustments were made to improve test coverage and ensure alignment with functionality. Prompts were used to generate inclusive test cases that considered edge cases for accessibility.
 
-# Overall Impact:
+# AI Implementation:
 AI tools streamlined repetitive tasks, enabling focus on high-level development. Efficiency gains included faster debugging, comprehensive testing, and improved code quality. Challenges included contextual adjustments to AI-generated outputs, which were resolved effectively, enhancing inclusivity.
 
 # Testing Summary
