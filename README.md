@@ -77,6 +77,10 @@ AI tools streamlined repetitive tasks, enabling focus on high-level development.
 # Testing Summary
 
 # Manual Testing:
+
+I successfully created test_forms for both my models and views. I initiated prompts from co-pilot to assist me in this process.
+
+
 I used Devtool Lighthouse to conduct testing, outcome below:
 ![Lighthouse Test](static/images/LightHouse%20Testing.png)
 
