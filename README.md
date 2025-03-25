@@ -55,7 +55,9 @@ Platform: Heroku
 High-Level Deployment Steps:
 
 Step 1: Set up a Heroku account and create a new app.
+
 Step 2: Configure the Django application for Heroku deployment, including setting up the Procfile and necessary environment variables.
+
 Step 3: Deploy the application using Git and Heroku CLI.
 
 Verification and Validation:
