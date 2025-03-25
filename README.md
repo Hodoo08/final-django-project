@@ -7,6 +7,56 @@ Deployment Link
 
 The Inventory Management System is a web application developed using Django, Python, and deployed on Heroku. The purpose of this project is to provide an efficient solution for managing inventory, tracking stock levels, and ensuring that items are readily available when needed. It solves the problem of manual inventory tracking and helps businesses streamline their operations, saving time and reducing errors.
 
+# User Stories:
+
+Modify or delete a post:
+
+As a Site User I can modify or delete my comment on a post so that I can be involved in the conversation
+
+AC1 Given a logged in user, they can modify their comment
+AC2 Given a logged in user, they can delete their comment
+
+View Inventory Item: 
+
+As a site user, I can view a paginated list of inventory items so that I can select which item I want to view.
+
+Acceptance Criteria:
+
+AC1: Given more than one inventory item in the database, these multiple items are listed.
+AC2: When a user opens the main page, a list of inventory items is seen.
+AC3: The user sees all inventory item names with pagination to choose what to view.
+
+Add Inventory Item:
+
+As an inventory manager, I can add a new inventory item so that the inventory system stays updated.
+
+Acceptance Criteria:
+
+AC1: Given a form to add a new inventory item, the form includes fields for item name, quantity, and location.
+AC2: When a user submits the form with valid data, the item is added to the inventory.
+AC3: The user receives a confirmation message upon successfully adding the item.
+
+Update Inventory Item:
+
+As an inventory manager, I can update existing inventory items so that the inventory details remain accurate.
+
+Acceptance Criteria:
+
+AC1: Given a list of inventory items, each item has an "Edit" button.
+AC2: When a user clicks the "Edit" button, they are taken to a form pre-filled with the item's current details.
+AC3: The user can modify the details and save the changes, which updates the item in the inventory.
+
+Delete Inventory Item:
+
+As an inventory manager, I can delete an inventory item so that the inventory system stays clean and relevant.
+
+Acceptance Criteria:
+
+AC1: Given a list of inventory items, each item has a "Delete" button.
+AC2: When a user clicks the "Delete" button, they are asked to confirm the deletion.
+AC3: Upon confirmation, the item is removed from the inventory and the user sees a success message.
+
+
 # UX Design Process
 
 # Agile
