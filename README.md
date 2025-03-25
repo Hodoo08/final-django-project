@@ -75,6 +75,7 @@ AI tools streamlined repetitive tasks, enabling focus on high-level development.
 
 # Manual Testing:
 
+
 # Devices and Browsers Tested: 
 
 The application was tested on various devices and browsers, ensuring testing was conducted with assistive technologies such as screen readers and keyboard-only navigation.
