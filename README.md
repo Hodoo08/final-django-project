@@ -53,7 +53,6 @@ Environment variables are used for sensitive data.
 DEBUG mode is disabled in production.
 AI Implementation and Orchestration
 
-Use Cases and Reflections:
 
 # Code Creation: 
 AI was used for rapid prototyping, with minor adjustments for alignment with project goals. Examples include using reverse prompts for alternative code solutions and question-answer prompts for resolving specific challenges.
@@ -63,7 +62,8 @@ AI tools were instrumental in resolving logic errors and enhancing maintainabili
 
 # Performance and UX Optimization: 
 AI-driven improvements were applied to enhance application speed and user experience for all users.
-Automated Unit Testing: Adjustments were made to improve test coverage and ensure alignment with functionality. Prompts were used to generate inclusive test cases that considered edge cases for accessibility.
+Automated Unit Testing: 
+Adjustments were made to improve test coverage and ensure alignment with functionality. Prompts were used to generate inclusive test cases that considered edge cases for accessibility.
 
 # Overall Impact:
 AI tools streamlined repetitive tasks, enabling focus on high-level development. Efficiency gains included faster debugging, comprehensive testing, and improved code quality. Challenges included contextual adjustments to AI-generated outputs, which were resolved effectively, enhancing inclusivity.
@@ -75,9 +75,10 @@ AI tools streamlined repetitive tasks, enabling focus on high-level development.
 # Devices and Browsers Tested: 
 
 The application was tested on various devices and browsers, ensuring testing was conducted with assistive technologies such as screen readers and keyboard-only navigation.
-Features Tested: CRUD operations, navigation, and accessibility features were tested manually.
+
+Features Tested: 
+CRUD operations, navigation, and accessibility features were tested manually.
 Results: All critical features worked as expected, including accessibility checks.
-Automated Testing:
 
 # Tools Used:
 
@@ -92,4 +93,4 @@ Manual corrections were made to AI-generated test cases, particularly for access
 
 Consider adding voice input capabilities for improved accessibility.
 Implement additional language support to cater to a broader audience.
-Enhance the reporting features to provide more detailed insights into inventory trends.
+Add reporting features to provide more detailed insights into inventory trends.
