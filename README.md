@@ -11,7 +11,8 @@ Link to User Stories in GitHub Projects:
 
 # Wireframes:
 
-[Attach or link to accessible wireframes used in the design process, ensuring high colour contrast and alt text for visual elements.]
+[wireframes](static/images/New%20Wireframe%201.png)
+[wireframes](static/images/New%20Wireframe%202.png)
 
 # Design Rationale:
 
